@@ -1,0 +1,23 @@
+base = 2;
+power = 4;
+
+result = 1;
+
+if(power > 0)
+{
+
+	repeat(power)
+	{
+		
+		result = base * result;
+				
+	}
+	
+	print(result);
+
+}
+else
+{
+
+	print(0);
+}
